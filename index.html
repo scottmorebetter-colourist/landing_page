@@ -15,7 +15,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             text-align: center;
         }
 
@@ -24,7 +24,6 @@
             padding: 40px; 
         }
 
-        /* Logo set to be large and responsive */
         .logo { 
             max-width: 600px; 
             width: 100%; 
@@ -39,6 +38,7 @@
             color: #555555; 
         }
 
+        /* Primary Button */
         .btn {
             display: inline-block;
             padding: 18px 35px;
@@ -52,6 +52,23 @@
             transition: background-color 0.3s ease;
         }
         .btn:hover { background-color: #9A421C; }
+
+        /* Contact Section */
+        .contact-info {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #eeeeee;
+            color: #000439; /* Brand Navy */
+        }
+        .contact-info a {
+            color: #000439;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .contact-info p {
+            margin: 5px 0;
+            font-size: 1rem;
+        }
     </style>
 </head>
 <body>
@@ -61,6 +78,12 @@
         <p>I specialize in high-end colour grading and creative look development for commercials, advertising campaigns, and branded content. With 30 years of industry experience, I bring a wealth of cinematic knowledge to every project.</p>
         
         <a href="https://vimeo.com/scottmaclean" class="btn">VIEW PORTFOLIO ON VIMEO</a>
+
+        <div class="contact-info">
+            <p><strong>Location:</strong> <a href="https://goo.gl/maps/nWR1S9dE3VA5w5EU6" target="_blank">Shop 3, 98 Starkey Street, Killarney Heights</a></p>
+            <p><strong>Email:</strong> <a href="mailto:scott@morebetter.com.au">scott@morebetter.com.au</a></p>
+            <p><strong>Mobile:</strong> <a href="tel:0402221662">0402 221 662</a></p>
+        </div>
     </div>
 </body>
 </html>
